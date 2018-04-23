@@ -31,13 +31,13 @@ def get_data(url):
     except HTTPError as e: 
         print(e)
         if e.code == 429:
-            time.sleep(3)
+            time.sleep(1)
             return get_data(url)
         return 
     # Retry in case of wrong page
     except IndexError as e: 
         #print(e)
-        time.sleep(3)
+        time.sleep(1)
         return  get_data(url)
     # Abort in case of wrong page
     except KeyError as e: 

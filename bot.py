@@ -13,6 +13,7 @@ pp = pprint.PrettyPrinter(indent=2)
 def handle(msg):
     chat_id = msg['chat']['id']
     message = msg['text'].split(" ")
+    bot.sendMessage(chat_id, "Aguarde enquanto nosso gerador de Inutilidades procura o Reddit")
     try:
         if(len(message)==2):
             command = message[0]
