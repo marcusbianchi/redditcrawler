@@ -16,6 +16,8 @@ It only takes one argument which is the subreddits that you wanna query separate
 ## Bot Version
 - First install it's dependencies:
 ```
+pip install urllib
+pip install bs4
 pip install telepot
 ```
 - Then set environment variable with you BootKey:
