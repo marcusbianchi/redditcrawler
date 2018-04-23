@@ -20,7 +20,7 @@ pip install urllib
 pip install bs4
 pip install telepot
 ```
-- Then set environment variable with you BootKey:
+- Then set environment variable with you BotKey:
     - export BOOT_KEY_REDDIT="597001235:AAFuetAcfvJ09r4Cc7fbtOJKeCj_SPAu7aY"   
 
 - The you can run it:
