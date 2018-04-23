@@ -22,7 +22,7 @@ def handle(msg):
                 process_crawler(args,chat_id)            
             else:                
                 bot.sendMessage(chat_id, "Não entendi, digite /NadaPraFazer [+ Lista de subrredits separados por ;] para obter lista do que fazer")
-        if(len(message)==1):
+        elif(len(message)==1):
             command = message[0]
             if command == '/NadaPraFazer':
                 process_crawler(["news","cats"],chat_id)                  
