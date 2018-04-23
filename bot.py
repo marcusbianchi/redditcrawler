@@ -52,4 +52,4 @@ bot = telepot.Bot(key)
 MessageLoop(bot, handle).run_as_thread()
 print('I am listening ...')
 while 1:
-    time.sleep(2)
+    time.sleep(1)
