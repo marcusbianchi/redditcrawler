@@ -19,12 +19,12 @@ It only takes one argument which is the subreddits that you wanna query separate
 pip install telepot
 ```
 - Then set environment variable with you BootKey:
- - export BOOT_KEY_REDDIT="597001235:AAFuetAcfvJ09r4Cc7fbtOJKeCj_SPAu7aY"   
+    - export BOOT_KEY_REDDIT="597001235:AAFuetAcfvJ09r4Cc7fbtOJKeCj_SPAu7aY"   
 
 - The you can run it:
 ```
 python bot.py"
 ```
 
-- After that add personalredditcrawler_bot to your Telegram Contacts and start to do queries:
- - digite /NadaPraFazer [+ Lista de subrredits separado por virgulas]
+- After that add "personalredditcrawler_bot" to your Telegram Contacts and start to do queries:
+    - digite /NadaPraFazer [+ Lista de subrredits separado por virgulas]
