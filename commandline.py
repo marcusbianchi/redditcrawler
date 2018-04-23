@@ -11,6 +11,7 @@ def main(arg,main=True):
     result=[]
     urls = arg.split(';')
     for url in urls:
+        #get the reddits top of the current day
         url="https://www.reddit.com"+url+"/top/?sort=top&t=day"
         cur_result = crawler.get_data(url)
         if(cur_result!=None):
