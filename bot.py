@@ -20,14 +20,14 @@ def handle(msg):
             if command == '/NadaPraFazer':
                 process_crawler(args,chat_id)
             elif command == '/start':
-                bot.sendMessage(chat_id, "Olá eu sou o seu buscador de Inutilidades digite /NadaPraFazer [+ Lista de subrredits] para obter lista do que fazer")
+                bot.sendMessage(chat_id, "Olá eu sou o seu buscador de Inutilidades digite /NadaPraFazer [+ Lista de subrredits separados por ;] para obter lista do que fazer")
             else:                
-                bot.sendMessage(chat_id, "Não entendi, digite /NadaPraFazer [+ Lista de subrredits] para obter lista do que fazer")
+                bot.sendMessage(chat_id, "Não entendi, digite /NadaPraFazer [+ Lista de subrredits separados por ;] para obter lista do que fazer")
         else:
-            bot.sendMessage(chat_id, "Não entendi, digite /NadaPraFazer [+ Lista de subrredits] para obter lista do que fazer")
+            bot.sendMessage(chat_id, "Não entendi, digite /NadaPraFazer [+ Lista de subrredits separados por ;] para obter lista do que fazer")
     except Exception as e:
          print(e)
-         bot.sendMessage(chat_id, "OPS: Não entendi, digite /NadaPraFazer [+ Lista de subrredits] para obter lista do que fazer")
+         bot.sendMessage(chat_id, "OPS: Não entendi, digite /NadaPraFazer [+ Lista de subrredits separados por ;] para obter lista do que fazer")
 
 
 

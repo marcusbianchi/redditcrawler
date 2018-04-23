@@ -27,4 +27,4 @@ python bot.py"
 ```
 
 - After that add "personalredditcrawler_bot" to your Telegram Contacts and start to do queries:
-    - digite /NadaPraFazer [+ Lista de subrredits separado por virgulas]
+    - Type /NadaPraFazer [+ List of subrredits separeted by ';']
